@@ -1,6 +1,9 @@
 # =]
 
-DIY E-Juice recipes for use with a small CLI based calculator written in Perl.
+DIY E-Juice recipes for use with App:vaporcalc. A small CLI based calculator written in Perl.
+
+	## LOL Test =] etc
+	# :^)
 
 # App:vaporcalc (pls 2 clone me)
 
