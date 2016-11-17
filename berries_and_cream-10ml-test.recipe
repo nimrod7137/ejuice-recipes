@@ -1,0 +1,33 @@
+{
+   "recipe" : {
+      "target_quantity" : 10.0,
+      "target_nic_per_ml" : 3.0,
+      "target_vg" : 80,
+      "target_pg" : 20,
+      "base_nic_type" : "PG",
+      "base_nic_per_ml" : 100,
+      "notes" : [],
+      "flavor_array" : [
+         {
+            "tag" : "TFA Marshmallow",
+            "percentage" : "2",
+            "type" : "PG"
+         },
+         {
+            "percentage" : "4",
+            "tag" : "TFA Blueberry Extra",
+            "type" : "PG"
+         },
+         {
+            "percentage" : "4",
+            "tag" : "TFA Bavarian Cream",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "tag" : "TFA Strawberry",
+            "percentage" : "2"
+         }
+      ]
+   }
+}
