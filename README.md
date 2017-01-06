@@ -22,5 +22,3 @@ If you have any questions or suggestions you can contact me at nimrod@alphachat.
 or on IRC @ irc.alphachat.net/6697. A webclient can be used here. https://webchat.alphachat.net/?channels=#lobby
 
 # R.I.P. Jon (avenj)
-
-
