@@ -1,0 +1,28 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+	{
+            "type" : "PG",
+            "tag" : "TFA Apple Candy",
+            "percentage" : "5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Apple",
+            "percentage" : "2"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Double Apple",
+            "percentage" : "1"
+         },
+      ],
+      "target_vg" : 80,
+      "target_pg" : "20",
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG",
+      "target_quantity" : "10",
+      "target_nic_per_ml" : "3",
+      "notes" : []
+   }
+}
