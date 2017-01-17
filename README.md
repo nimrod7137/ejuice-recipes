@@ -2,7 +2,7 @@
 
 DIY E-Juice recipes for use with App:vaporcalc. A small CLI based calculator written in Perl.
 
-If there aren't any recipes in the master branch, it's because we haven't finished them yet.
+If there aren't any recipes in the master branch, it's because I haven't finished them yet.
 
 Check the other branches for recipes currently being tested.
 
