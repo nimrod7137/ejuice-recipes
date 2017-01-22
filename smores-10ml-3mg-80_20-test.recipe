@@ -33,6 +33,6 @@
       "base_nic_type" : "PG",
       "target_quantity" : "10",
       "target_nic_per_ml" : "3",
-      "notes" : []
+      "notes" : ["Try this batch with .5 CAP Double Chocolate instead of TFA Chcholate at some point."]
    }
 }
