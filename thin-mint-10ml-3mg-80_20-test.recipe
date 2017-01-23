@@ -1,0 +1,43 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+        {
+            "type" : "PG",
+            "tag" : "INA Chocomint",
+            "percentage" : "1.5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Dutch Chocolate Mint",
+            "percentage" : ".5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Double Chocolate",
+            "percentage" : ".5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Peppermint",
+            "percentage" : ".2"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA VBIC",
+            "percentage" : ".5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Bavarian Cream",
+            "percentage" : ".5"
+         },
+      ],
+      "target_vg" : 80,
+      "target_pg" : "20",
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG",
+      "target_quantity" : "10",
+      "target_nic_per_ml" : "3",
+      "notes" : []
+   }
+}
