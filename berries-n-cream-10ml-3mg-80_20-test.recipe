@@ -1,0 +1,43 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+        {
+            "type" : "PG",
+            "tag" : "CAP Raspberry",
+            "percentage" : "3"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Blueberry",
+            "percentage" : "2"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Sweet Strawberry",
+            "percentage" : "1.5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Bavarian Cream",
+            "percentage" : ".75"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP VBIC",
+            "percentage" : ".5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Marshmallow",
+            "percentage" : "2"
+         },
+      ],
+      "target_vg" : 80,
+      "target_pg" : "20",
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG",
+      "target_quantity" : "10",
+      "target_nic_per_ml" : "3",
+      "notes" : []
+   }
+}
