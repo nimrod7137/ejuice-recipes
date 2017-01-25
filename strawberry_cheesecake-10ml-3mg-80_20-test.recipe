@@ -14,22 +14,22 @@
 	{
             "type" : "PG",
             "tag" : "CAP Sweet Strawberry",
-            "percentage" : "1"
+            "percentage" : "2"
          },
 	{
             "type" : "PG",
             "tag" : "CAP New York Cheesecake",
-            "percentage" : "1"
+            "percentage" : "3"
          },
 	{
             "type" : "PG",
             "tag" : "TFA Graham Cracker Clear",
-            "percentage" : ".5"
+            "percentage" : "1"
          },
 	{
             "type" : "PG",
             "tag" : "TFA Vanilla Bean Ice Cream",
-            "percentage" : "2"
+            "percentage" : "1"
          },
 	{
             "type" : "PG",
