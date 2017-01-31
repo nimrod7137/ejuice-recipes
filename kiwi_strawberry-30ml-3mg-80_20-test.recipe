@@ -1,0 +1,38 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+        {
+            "type" : "PG",
+            "tag" : "TFA Kiwi Double",
+            "percentage" : "5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "CAP Sweet Strawberry",
+            "percentage" : "3"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Strawberry (Ripe)",
+            "percentage" : "1"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Strawberry",
+            "percentage" : ".5"
+         },
+	{
+            "type" : "PG",
+            "tag" : "TFA Dragonfruit",
+            "percentage" : ".5"
+         },
+      ],
+      "target_vg" : 80,
+      "target_pg" : "20",
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG",
+      "target_quantity" : "30",
+      "target_nic_per_ml" : "3",
+      "notes" : []
+   }
+}
