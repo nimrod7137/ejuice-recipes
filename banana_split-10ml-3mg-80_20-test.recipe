@@ -1,0 +1,53 @@
+{
+   "recipe" : {
+      "base_nic_type" : "PG",
+      "target_quantity" : 10.0,
+      "base_nic_per_ml" : 100,
+      "target_nic_per_ml" : 3,
+      "target_vg" : 80,
+      "notes" : [],
+      "target_pg" : 20,
+      "flavor_array" : [
+         {
+            "tag" : "TFA Vanilla Swirl",
+            "type" : "PG",
+            "percentage" : "4"
+         },
+         {
+            "percentage" : "1",
+            "type" : "PG",
+            "tag" : "TFA Vanillin 10%"
+         },
+         {
+            "tag" : "TFA Double Chocolate",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "tag" : "TFA Strawberry (Ripe)",
+            "type" : "PG",
+            "percentage" : "1"
+         },
+         {
+            "percentage" : ".5",
+            "type" : "PG",
+            "tag" : "INW Strawberry"
+         },
+         {
+            "tag" : "INW Banana",
+            "type" : "PG",
+            "percentage" : ".25"
+         },
+         {
+            "tag" : "INW Ananas (Pineapple)",
+            "type" : "PG",
+            "percentage" : ".25"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "2",
+            "tag" : "TFA Sweet Cream"
+         }
+      ]
+   }
+}
