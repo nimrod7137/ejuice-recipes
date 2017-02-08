@@ -1,0 +1,38 @@
+{
+   "recipe" : {
+      "base_nic_type" : "PG",
+      "base_nic_per_ml" : 100,
+      "notes" : [],
+      "target_nic_per_ml" : 3,
+      "target_pg" : 20,
+      "target_vg" : 80,
+      "target_quantity" : 10.0,
+      "flavor_array" : [
+         {
+            "type" : "PG",
+            "tag" : "INW Blueberry",
+            "percentage" : "2"
+         },
+         {
+            "percentage" : "1.5",
+            "tag" : "TFA Cheesecake (Graham Crust)",
+            "type" : "PG"
+         },
+         {
+            "tag" : "TFA Toasted Marshmallow",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "percentage" : "1",
+            "tag" : "TFA Sweet Cream",
+            "type" : "PG"
+         },
+         {
+            "percentage" : ".5",
+            "tag" : "TFA Graham Cracker (Clear)",
+            "type" : "PG"
+         }
+      ]
+   }
+}
