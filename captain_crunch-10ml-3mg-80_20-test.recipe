@@ -1,0 +1,38 @@
+{
+   "recipe" : {
+      "target_quantity" : 10.0,
+      "target_nic_per_ml" : 3,
+      "target_vg" : 80,
+      "base_nic_type" : "PG",
+      "target_pg" : 20,
+      "base_nic_per_ml" : 100,
+      "flavor_array" : [
+         {
+            "type" : "PG",
+            "percentage" : "4",
+            "tag" : "TFA Berry Cereal"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "2",
+            "tag" : "TFA V\bBlueberry Wild"
+         },
+         {
+            "percentage" : "2",
+            "tag" : "TFA Strawberry (Ripe)",
+            "type" : "PG"
+         },
+         {
+            "percentage" : "1",
+            "tag" : "TFA Sweet Cream",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "1",
+            "tag" : "TFA Marshmallow"
+         }
+      ],
+      "notes" : []
+   }
+}
