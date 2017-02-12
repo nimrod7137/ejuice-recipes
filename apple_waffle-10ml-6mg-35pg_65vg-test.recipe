@@ -1,0 +1,23 @@
+{
+   "recipe" : {
+      "target_pg" : 35,
+      "flavor_array" : [
+         {
+            "percentage" : "2",
+            "type" : "PG",
+            "tag" : "TFA Green Apple"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "5",
+            "tag" : "TFA Belgian Waffle"
+         }
+      ],
+      "target_quantity" : 10.0,
+      "notes" : [],
+      "target_nic_per_ml" : 6,
+      "base_nic_per_ml" : 24,
+      "target_vg" : 65,
+      "base_nic_type" : "PG"
+   }
+}
