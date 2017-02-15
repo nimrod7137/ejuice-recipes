@@ -1,0 +1,33 @@
+{
+   "recipe" : {
+      "base_nic_per_ml" : 24,
+      "notes" : [],
+      "target_pg" : 50,
+      "target_nic_per_ml" : 6,
+      "target_quantity" : 10,
+      "target_vg" : 50,
+      "flavor_array" : [
+         {
+            "percentage" : "1",
+            "tag" : "TFA Bavarian Cream",
+            "type" : "PG"
+         },
+         {
+            "tag" : "TFA Dairy Milk",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "percentage" : "4",
+            "type" : "PG",
+            "tag" : "LA Mint Chocolate Chip Colorless"
+         },
+         {
+            "percentage" : "2.5",
+            "type" : "PG",
+            "tag" : "TFA White Chocolate"
+         }
+      ],
+      "base_nic_type" : "PG"
+   }
+}
