@@ -1,0 +1,43 @@
+{
+   "recipe" : {
+      "target_pg" : 20,
+      "notes" : [],
+      "flavor_array" : [
+         {
+            "tag" : "INW Banana",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "tag" : "TFA Banana Cream",
+            "percentage" : "3",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "2",
+            "tag" : "TFA Vanilla Cupcake"
+         },
+         {
+            "tag" : "TFA Vanilla Custard",
+            "percentage" : "2",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "1",
+            "tag" : "TFA Vanillin 10%"
+         },
+         {
+            "tag" : "TFA Graham Cracker (Clear)",
+            "percentage" : "2",
+            "type" : "PG"
+         }
+      ],
+      "target_quantity" : 10.0,
+      "target_vg" : 80,
+      "target_nic_per_ml" : 3,
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG"
+   }
+}
