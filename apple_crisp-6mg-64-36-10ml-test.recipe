@@ -1,0 +1,28 @@
+{
+   "recipe" : {
+      "base_nic_per_ml" : 24,
+      "flavor_array" : [
+         {
+            "type" : "PG",
+            "tag" : "TFA Green Apple",
+            "percentage" : "5"
+         },
+         {
+            "percentage" : "2",
+            "tag" : "TFA Graham Cracker (Clear)",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "3",
+            "tag" : "TFA Honey"
+         }
+      ],
+      "target_quantity" : 10,
+      "target_pg" : 36,
+      "base_nic_type" : "PG",
+      "target_nic_per_ml" : 6,
+      "target_vg" : 64,
+      "notes" : []
+   }
+}
