@@ -1,22 +1,19 @@
 {
    "recipe" : {
-      "base_nic_per_ml" : 100,
-      "target_pg" : 20,
       "base_nic_type" : "PG",
-      "notes" : [
-         "Note to add 1% TFA Sweetener if the quick test i made works out."
-      ],
-      "target_quantity" : 10.0,
+      "target_nic_per_ml" : 3,
+      "target_pg" : 20,
+      "target_vg" : 80,
       "flavor_array" : [
          {
             "tag" : "INW Strawberry",
-            "percentage" : "3",
-            "type" : "PG"
+            "type" : "PG",
+            "percentage" : "3"
          },
          {
-            "type" : "PG",
+            "tag" : "TFA Strawberry (Ripe)",
             "percentage" : "4",
-            "tag" : "TFA Strawberry (Ripe)"
+            "type" : "PG"
          },
          {
             "tag" : "TFA Toasted Marshmallow",
@@ -24,17 +21,23 @@
             "type" : "PG"
          },
          {
-            "tag" : "INW Banana",
             "percentage" : ".6",
+            "type" : "PG",
+            "tag" : "INW Banana"
+         },
+         {
+            "tag" : "TFA Banana Cream",
+            "percentage" : "3",
             "type" : "PG"
          },
          {
             "type" : "PG",
-            "percentage" : "3",
-            "tag" : "TFA Banana Cream"
+            "percentage" : "2",
+            "tag" : "TFA Sweetener"
          }
       ],
-      "target_vg" : 80,
-      "target_nic_per_ml" : 3
+      "notes" : [],
+      "target_quantity" : 10.0,
+      "base_nic_per_ml" : 100
    }
 }
