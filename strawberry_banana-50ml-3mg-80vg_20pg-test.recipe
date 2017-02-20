@@ -1,0 +1,43 @@
+{
+   "recipe" : {
+      "target_quantity" : 50.0,
+      "base_nic_per_ml" : 100,
+      "target_vg" : 80,
+      "flavor_array" : [
+         {
+            "percentage" : "3",
+            "type" : "PG",
+            "tag" : "INW Strawberry"
+         },
+         {
+            "percentage" : "4",
+            "type" : "PG",
+            "tag" : "TFA Strawberry (Ripe)"
+         },
+         {
+            "tag" : "TFA Toasted Marshmallow",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "tag" : "INW Banana",
+            "percentage" : ".6",
+            "type" : "PG"
+         },
+         {
+            "percentage" : "3",
+            "type" : "PG",
+            "tag" : "TFA Banana Cream"
+         },
+         {
+            "tag" : "TFA Sweetener",
+            "percentage" : "2",
+            "type" : "PG"
+         }
+      ],
+      "notes" : [],
+      "target_nic_per_ml" : 3,
+      "target_pg" : 20,
+      "base_nic_type" : "PG"
+   }
+}
