@@ -1,33 +1,38 @@
 {
    "recipe" : {
+      "target_pg" : 20,
       "flavor_array" : [
-        {
-            "type" : "PG",
-            "tag" : "FW Blood Orange",
-            "percentage" : "1.5"
+         {
+            "percentage" : "5",
+            "tag" : "TFA Orange Cream",
+            "type" : "PG"
          },
-	{
-            "type" : "PG",
-            "tag" : "TFA VBIC",
-            "percentage" : "3"
+         {
+            "percentage" : "2",
+            "tag" : "TFA Vanilla Swirl",
+            "type" : "PG"
          },
-	{
-            "type" : "PG",
-            "tag" : "TFA Bavarian Cream",
-            "percentage" : "2.5"
+         {
+            "percentage" : "1",
+            "tag" : "TFA Vanillin 10%",
+            "type" : "PG"
          },
-	{
+         {
             "type" : "PG",
-            "tag" : "TFA Marshmallow",
+            "tag" : "TFA Toasted Marshmallow",
             "percentage" : "2"
          },
+         {
+            "tag" : "TFA Bavarian Cream",
+            "percentage" : "1",
+            "type" : "PG"
+         }
       ],
-      "target_vg" : 80,
-      "target_pg" : "20",
-      "base_nic_per_ml" : 100,
       "base_nic_type" : "PG",
-      "target_quantity" : "10",
-      "target_nic_per_ml" : "3",
-      "notes" : []
+      "target_vg" : 80,
+      "target_quantity" : 10.0,
+      "notes" : [],
+      "target_nic_per_ml" : 3,
+      "base_nic_per_ml" : 100
    }
 }
