@@ -1,0 +1,43 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+         {
+            "type" : "PG",
+            "tag" : "TFA Vanillin 10%",
+            "percentage" : "1"
+         },
+         {
+            "tag" : "TFA Toasted Marshmallow",
+            "percentage" : "2",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "tag" : "TFA Bavarian Cream",
+            "percentage" : "1"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "7",
+            "tag" : "TFA Orange Cream"
+         },
+         {
+            "percentage" : "2",
+            "tag" : "TFA Sweetener",
+            "type" : "PG"
+         },
+         {
+            "tag" : "TFA Vanilla Swirl",
+            "percentage" : "4",
+            "type" : "PG"
+         }
+      ],
+      "target_quantity" : 50.0,
+      "target_nic_per_ml" : 3,
+      "base_nic_type" : "PG",
+      "target_vg" : 75,
+      "base_nic_per_ml" : 100,
+      "target_pg" : 25,
+      "notes" : []
+   }
+}
