@@ -1,0 +1,48 @@
+{
+   "recipe" : {
+      "base_nic_type" : "PG",
+      "target_nic_per_ml" : 3,
+      "target_vg" : 80,
+      "target_quantity" : 10,
+      "base_nic_per_ml" : 100,
+      "flavor_array" : [
+         {
+            "type" : "PG",
+            "tag" : "TFA Sweetener",
+            "percentage" : "1"
+         },
+         {
+            "type" : "PG",
+            "percentage" : ".5",
+            "tag" : "TFA E.M. 10%"
+         },
+         {
+            "percentage" : "3",
+            "tag" : "INW Mango",
+            "type" : "PG"
+         },
+         {
+            "tag" : "INW Peach",
+            "percentage" : ".5",
+            "type" : "PG"
+         },
+         {
+            "type" : "PG",
+            "percentage" : "1",
+            "tag" : "INW Ananas (Pineapple)"
+         },
+         {
+            "tag" : "TFA Sour",
+            "percentage" : "1",
+            "type" : "PG"
+         },
+         {
+            "percentage" : ".25",
+            "tag" : "TFA Koolada 10%",
+            "type" : "PG"
+         }
+      ],
+      "notes" : [],
+      "target_pg" : 20
+   }
+}
