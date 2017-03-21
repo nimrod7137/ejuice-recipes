@@ -5,33 +5,33 @@
       "target_nic_per_ml" : 3,
       "target_pg" : 20,
       "base_nic_type" : "PG",
-      "target_quantity" : 10.0,
+      "target_quantity" : 50.0,
       "target_vg" : 80,
       "flavor_array" : [
          {
             "percentage" : "1.5",
-            "tag" : "INA Chocomint",
+            "type" : "PG",
+            "tag" : "INA Chocomint"
+         },
+         {
+            "type" : "PG",
+            "tag" : "CAP Dutch Chocolate Mint",
+            "percentage" : ".5"
+         },
+         {
+            "percentage" : ".5",
+            "tag" : "TFA Bavarian Cream",
             "type" : "PG"
          },
          {
-            "tag" : "CAP Dutch Chocolate Mint",
             "type" : "PG",
-            "percentage" : ".5"
-         },
-         {
-            "tag" : "TFA Bavarian Cream",
-            "type" : "PG",
-            "percentage" : ".5"
-         },
-         {
             "tag" : "TFA Vanilla Swirl",
-            "type" : "PG",
             "percentage" : "3"
          },
          {
-            "percentage" : "2",
+            "tag" : "TFA Vanillin 10%",
             "type" : "PG",
-            "tag" : "TFA Vanillin 10%"
+            "percentage" : "2"
          }
       ]
    }
