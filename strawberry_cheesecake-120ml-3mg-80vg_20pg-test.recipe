@@ -1,0 +1,38 @@
+{
+   "recipe" : {
+      "flavor_array" : [
+         {
+            "percentage" : "3",
+            "type" : "PG",
+            "tag" : "TFA Strawberry (Ripe)"
+         },
+         {
+            "tag" : "CAP NY Cheesecake",
+            "type" : "PG",
+            "percentage" : "2"
+         },
+         {
+            "percentage" : "3",
+            "type" : "PG",
+            "tag" : "TFA Cheesecake (Graham Crust)"
+         },
+         {
+            "type" : "PG",
+            "tag" : "TFA Sweetener",
+            "percentage" : "2"
+         },
+         {
+            "type" : "PG",
+            "tag" : "INW Strawberry",
+            "percentage" : "3"
+         }
+      ],
+      "target_vg" : 80,
+      "target_nic_per_ml" : 3,
+      "notes" : [],
+      "target_quantity" : "120",
+      "base_nic_per_ml" : 100,
+      "base_nic_type" : "PG",
+      "target_pg" : 20
+   }
+}
